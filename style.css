@@ -1,0 +1,43 @@
+body {
+  background-color: #d3d3d3;
+  width: 100vw;
+  height: 100vh;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.topo {
+  background-color: #888;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
+  background-image: url('https://img.icons8.com/ios-filled/100/000000/user.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.conteudo {
+  background-color: #d3d3d3;
+}
+
+.progress {
+  height: 25px;
+}
+
+.progress-bar {
+  font-weight: bold;
+  color: black;
+}
+
+.mobile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  min-height: 80vh;
+  background-color: #d3d3d3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
